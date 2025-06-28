@@ -14,7 +14,7 @@ Right-click the domain or folder in Burp Suite's Site Map panel and select:
 
 **`Save selected items`**
 
-
+![image](https://github.com/user-attachments/assets/19e2b456-17b4-4daa-8fa7-b94593d4e531)
 
 Save the result as an **XML file**, and you're ready to go.
 
