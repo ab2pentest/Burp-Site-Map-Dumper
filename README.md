@@ -23,10 +23,15 @@ Save the result as an **XML file**, and you're ready to go.
 ## ⚙️ Features
 
 ✅ Extracts base64-encoded responses
+
 ✅ Reconstructs full folder/URL structure
+
 ✅ Strips HTTP headers from responses
+
 ✅ Infers missing file extensions via `<mimetype>`
+
 ✅ Supports CLI flags via `argparse`
+
 ✅ Cross-platform (Python 3.6+)
 
 ---
