@@ -1,4 +1,4 @@
-# 🕷️ Burp Suite Sitemap Extractor
+# 🕷️ Burp Suite Sitemap Dumper
 
 > **Easily extract and save all files (JS, HTML, images, etc.) from a Burp Suite sitemap export to your local machine.**
 
@@ -34,7 +34,7 @@ Save the result as an **XML file**, and you're ready to go.
 ## 🚀 Usage
 
 ```bash
-python3 extract_burp_files.py -i all_requests.xml -o output_folder
+python3 burpsuite-sitemap-dumper.py -i all_requests.xml -o output_folder
 ```
 
 ### Flags
@@ -47,7 +47,7 @@ python3 extract_burp_files.py -i all_requests.xml -o output_folder
 You can also view the help menu:
 
 ```bash
-python3 extract_burp_files.py --help
+python3 burpsuite-sitemap-dumper.py --help
 ```
 
 ---
@@ -108,5 +108,5 @@ MIT — do whatever you want, just don’t blame us when you dump 10,000 files t
 Let me know if you’d like:
 
 * A logo badge
-* Packaging as a PyPI tool (`pip install burp-sitemap-dumper`)
+* Packaging as a PyPI tool (`pip install burpsuite-sitemap-dumper`)
 * Prettier table of contents / anchors
